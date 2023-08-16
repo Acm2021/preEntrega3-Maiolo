@@ -140,17 +140,19 @@ label {
 }
 
 .btnFormulario {
-  background-color: #4682A9;
+  background: radial-gradient(#4682A9, #4682A9, #253094);
   color: #fff;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
   font-size: 20px;
   margin-top: 10px;
+  transition: all 0.6s ease-in-out;
   cursor: pointer;
 }
 .btnFormulario:hover {
-  background-color: #656666;
+  background: #656666;
+  transform: translate(3px, -3px);
 }
 
 /* GALERIA */

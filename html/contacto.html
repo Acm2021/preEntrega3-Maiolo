@@ -8,11 +8,16 @@
     <!--FAVICON-->
     <link rel="icon" href="../img/C.png" type="image/png">
 
-    <title>ChulisINN</title>
+    <title>Contacto-ChulisINN</title>
+    <meta name="description"
+        content="Somo un Bed@Brekfast que te propone un ambiente de categoría y a la vez familiar para que disfrutes de dos luagres increibles de Argentina, BsAS y Calafate">
+
 
     <!-- BOOTSTRAP 5.0.2 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- ESTILOS CSS -->
     <link rel="stylesheet" href="../css/estilos.css">
 
@@ -21,7 +26,7 @@
 <body class="container-fluid">
     <header>
         <div class="container-fluid banner ">
-            <a href="../index.html"><img class="logo" src="../img/C.png" alt="Logo"></a>
+            <a href="../index.html"><img data-aos="flip-left"  class="logo" src="../img/C.png" alt="Logo"></a>
 
         </div>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -57,7 +62,7 @@
 
     <main class="container-flex  bgClaro cuerpoMain">
         <h1 class="tituloPrincipalContato">ChulisInn - Contacto</h1>
-        
+
 
 
         <form>
@@ -66,7 +71,7 @@
 
             <label for="apellido"> Apellido </label>
             <input class="campos" type="text" id="apellido" placeholder="Ingrese Apellido">
-            
+
             <label for="Mail"> Mail</label>
             <input class="campos" type="text" id="Mail" placeholder="Ingrese Email">
 
@@ -84,7 +89,8 @@
 
 
 
-    <footer>
+    <footer data-aos="fade-up"
+    data-aos-anchor-placement="center-bottom">
         <a href="https://wa.me/tunumerodetelefono"> <img class="iconoWhatsap" src="../img/whatsapp.png"
                 alt="Icono de Whatsapp"></a>
 
@@ -117,5 +123,9 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
     crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </html>
