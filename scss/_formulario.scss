@@ -1,0 +1,43 @@
+$color_1: #333;
+$color_2: #fff;
+$background-color_1: #4682A9;
+$background-color_2: #656666;
+
+/* Formulario */
+.tituloPrincipalContatos {
+	margin-top: 40px;
+	margin-left: 20px;
+	font-size: 2rem;
+	text-align: left;
+}
+form {
+	margin-top: 20px;
+}
+label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+	color: $color_1;
+}
+.campos {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	font-size: 1rem;
+	margin-bottom: 10px;
+}
+.btnFormulario {
+	background-color: $background-color_1;
+	color: $color_2;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 20px;
+	margin-top: 10px;
+	cursor: pointer;
+	&:hover {
+		background-color: $background-color_2;
+	}
+}
